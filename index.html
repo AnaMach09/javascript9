@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <section>
+      <form action="" id="registration" method="POST">
+        <div>
+          <input class="name"
+            type="text"
+            name="username"
+            id="usernamefield"
+            placeholder="Username.."
+          />
+          <span class="error-text" id="error_username"></span>
+          <span id="text1"></span>
+        </div>
+        <div class="emailvaldiation">
+          <input class="name" type="email" id="email" placeholder="email.." name="myemail">
+          <span id="text"></span>
+      </div>
+        <div class="password-field">
+          <input class="name password-name" type="password" id="showpassword" name="passwword" placeholder="password..">
+          <i class="fa-solid fa-eye" id="toggleIcon"></i>
+        </div>
+        <div>
+          <input class="name"
+            type="password"
+            name="pasww2"
+            id="passwordfield2"
+            placeholder="Repeat Password.."
+          />
+          <span class="error-text" id="error_pasww2"></span>
+        </div>
+       
+        <div>
+          <input  class="female" type="radio" name="gender" value="male" id="male" />
+          <label  class="male" for="male">Male</label>
+          <input class="female" type="radio" name="gender" value="female" id="female" />
+          <label class="male" for="female">Female</label>
+          <span class="error-text" id="error_gender"></span>
+        </div>
+        <div>
+          <input class="female" type="checkbox" name="agree" id="agree" />
+          <label class="male" for="agree">I agree tersm and conditions</label>
+          <span class="error-text" id="error_agree"></span>
+        </div>
+        <button  class="submit" type="submit">Submit</button>
+        
+  
+        
+      </form>
+      
+    
+
+
+      
+    </section>
+  </body>
+</html>
